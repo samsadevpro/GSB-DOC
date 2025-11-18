@@ -9,6 +9,6 @@ export function convertMedecinToDoctor(medecin: Medecin): Doctor {
     lastName: medecin.nom,
     email: medecin.email,
     speciality: medecin.specialite,
-    adress: medecin.adresse,
+    adress: medecin.adresse
   };
 }
